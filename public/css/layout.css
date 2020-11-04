@@ -160,8 +160,9 @@ header .scrolldown a:hover { color: #11ABB0; }
  /* #about .download { width: 50%; } */
 
 #about {
-    background: #2B2B2B;
+    /* background: #2B2B2B; */
     padding-top: 50px;
+    background: white;
     padding-bottom: 50px;
     overflow: hidden;
  }
@@ -176,7 +177,7 @@ header .scrolldown a:hover { color: #11ABB0; }
  
  #about h2 {
     font: 22px/30px 'opensans-bold', sans-serif;
-    color: #fff;
+    color: #2B2B2B;;
     margin-bottom: 12px;
  }
 
