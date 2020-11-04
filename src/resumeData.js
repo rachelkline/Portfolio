@@ -44,7 +44,6 @@ let resumeData = {
         "Achievements": "Worked backstage at concerts, events, and promotions with the Digital and Social Media team to create visually appealing stories and posts for the social media pages of large radio brands [including Q102, Power 99, Alt 104.5, 106.1 The Breeze, and WDAS Philly]"
       }
     ],
-    "skillsDescription": "",
     "skills": [
       {
         "skillname": "HTML5"
@@ -53,13 +52,13 @@ let resumeData = {
         "skillname": "CSS"
       },
       {
-        "skillname": "Reactjs"
+        "skillname": "javascript"
       },
       {
-        "skillname": "JavaScript"
+        "skillname": "reactjs"
       },
       {
-        "skillname": "MongoDB"
+        "skillname": "illustrator"
       }
     ],
 }
