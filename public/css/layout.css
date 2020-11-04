@@ -1,7 +1,8 @@
 body { background: #0f0f0f; }
-/* ------------------------------------------------------------------ */
+
+/*----------------------------------------------*/
 /* Header Styles
-/* ------------------------------------------------------------------ */
+/*----------------------------------------------*/
 
 header {
     position: relative;
@@ -82,9 +83,9 @@ header .scrolldown a:hover { color: #11ABB0; }
 #resume h1 { font: 16px/24px 'opensans-bold', sans-serif; }
 #resume .main-col { padding-right: 5%; }   
 
-
+/*----------------------------------------------*/
 /* Nav Styles
-/* ------------------------------------------------------------------ */
+/*----------------------------------------------*/
 
 #nav-wrap ul, #nav-wrap li, #nav-wrap a {
 	 margin: 0;
@@ -143,12 +144,12 @@ header .scrolldown a:hover { color: #11ABB0; }
         transition: color .2s ease-in-out;
     }
     
-    ul#nav li a:active { background-color: transparent !important; }
-    ul#nav li.current a { color: #F06000; }
+ul#nav li a:active { background-color: transparent !important; }
+ul#nav li.current a { color: #F06000; }
 
-    /* ------------------------------------------------------------------ */
-/* c. About Section
-/* ------------------------------------------------------------------ */
+/*----------------------------------------------*/
+/* About Section
+/*----------------------------------------------*/
 
 #about .profile-pic {
     width: 114px;
@@ -177,7 +178,7 @@ header .scrolldown a:hover { color: #11ABB0; }
  
  #about h2 {
     font: 22px/30px 'opensans-bold', sans-serif;
-    color: #fff;
+    color: #F06000;
     margin-bottom: 12px;
  }
 
@@ -192,9 +193,9 @@ header .scrolldown a:hover { color: #11ABB0; }
     border-radius: 100%;
  }
 
- /* ------------------------------------------------------------------ */
-/* d. Resume Section
-/* ------------------------------------------------------------------ */
+/*----------------------------------------------*/
+/* Resume Section
+/*----------------------------------------------*/
 
 #resume {
     background: #fff;
@@ -206,20 +207,21 @@ header .scrolldown a:hover { color: #11ABB0; }
  /* #resume a, #resume a:visited  { color: #11ABB0; }
 #resume a:hover, #resume a:focus { color: #313131; } */
 
+
 #resume h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
 }
 #resume h1 span {
-   border-bottom: 3px solid #11ABB0;
+   border-bottom: 3px solid #F06000;
    padding-bottom: 6px;
 }
 #resume h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
 }
 #resume .header-col { padding-top: 9px; padding-left:5%;}
-/* #resume .main-col { padding-right: 10%; } */
+#resume .main-col { padding-right: 5%; }
 
 .education, .work {
    margin-bottom: 48px;
@@ -241,6 +243,120 @@ header .scrolldown a:hover { color: #11ABB0; }
    margin-top: 6px;
 }
 
+/*----------------------------------------------*/
+/*	Skill Bars
+/*----------------------------------------------*/
+
+.bars {
+	width: 100%;
+	float: left;
+	padding: 0;
+	text-align: left;
+}
+.bars .skills {
+   list-style: none;
+}
+.bars li {
+   position: relative;
+  	margin-bottom: 60px;
+  	background: #ccc;
+  	height: 42px;
+  	border-radius: 3px;
+}
+.bars li em {
+	font: 15px 'opensans-bold', sans-serif;
+   color: #313131;
+	text-transform: uppercase;
+   letter-spacing: 2px;
+	font-weight: normal;
+   position: relative;
+	top: -36px;
+}
+.bar-expand {
+   position: absolute;
+   left: 0;
+   top: 0;
+
+   margin: 0;
+   padding-right: 24px;
+  	background: #313131;
+   display: inline-block;
+  	height: 42px;
+   line-height: 42px;
+   border-radius: 3px 0 0 3px;
+}
+
+/* Skills to display*/
+.html5 {
+    width: 80%;
+    -moz-animation: html5 2s ease;
+    -webkit-animation: html5 2s ease;
+}
+.css {
+    width: 80%;
+    -moz-animation: css 2s ease;
+    -webkit-animation: css 2s ease;
+}
+.javascript {
+    width: 72%;
+    -moz-animation: javascript 2s ease;
+    -webkit-animation: javascript 2s ease;
+}
+.reactjs {
+    width: 65%;
+    -moz-animation: reactjs 2s ease;
+    -webkit-animation: reactjs 2s ease;
+ }
+.illustrator {
+  	width: 75%;
+  	-moz-animation: illustrator 2s ease;
+  	-webkit-animation: illustrator 2s ease;
+}
+
+/* Bar Animation keyframes */
+/* MOZ */
+@-moz-keyframes html5 {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
+}
+@-moz-keyframes css {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
+}
+@-moz-keyframes javascript {
+    0%   { width: 0px;  }
+    100% { width: 72%;  }
+}
+@-moz-keyframes reactjs {
+    0%   { width: 0px;  }
+    100% { width: 65%;  }
+}
+@-moz-keyframes illustrator {
+    0%   { width: 0px;  }
+    100% { width: 75%;  }
+}
+
+/* WEBKIT */
+@-webkit-keyframes html5 {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
+}
+@-webkit-keyframes css {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
+}
+@-webkit-keyframes javascript {
+  0%   { width: 0px;  }
+  100% { width: 72%;  }
+}
+@-webkit-keyframes reactjs {
+    0%   { width: 0px;  }
+    100% { width: 65%;  }
+}
+@-webkit-keyframes illustrator {
+  0%   { width: 0px;  }
+  100% { width: 75%;  }
+}
 
 
 
