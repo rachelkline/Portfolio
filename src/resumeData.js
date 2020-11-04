@@ -11,30 +11,37 @@ let resumeData = {
         "specialization": "Full Stack Development",
         "MonthOfPassing": "November",
         "YearOfPassing": "2020",
-        "Achievements": "Certificate"
+        "Achievements": "LPS Coding Bootcamp Certificate"
       },
       {
         "UniversityName": "Saint Joseph's University",
         "specialization": "Communication Studies",
         "MonthOfPassing": "May",
         "YearOfPassing": "2017",
-        "Achievements": "Bachelors"
+        "Achievements": "Bachelors Degree | Duel Minors in Business and Food Marketing"
       }
     ],
     "work": [
       {
-        "CompanyName": "Dürr Systems",
-        "specialization": "Logistics Manager",
-        "MonthOfLeaving": "July",
-        "YearOfLeaving": "2018-November 2019",
-        "Achievements": "Worked to make sure that the parts and equipment are delivered to the installation team on time and in the condition required for proper installation"
+        "CompanyName": "Freelance Web Designer",
+        "specialization": "Self-Employed",
+        "MonthOfLeaving": "May 2017 - ",
+        "YearOfLeaving": "Present",
+        "Achievements": "Plan, design, and build custom websites that maintain functionality and navigation for clientele. Create digital art (including logos, portraits, social media templates, and picture re-creations) for both websites and commissions."
       },
       {
-        "CompanyName": "Nissan Automotive of North America",
-        "specialization": "Purchasing Analyst",
-        "MonthOfLeaving": "May",
-        "YearOfLeaving": "2017-June 2018",
-        "Achievements": "Analyze cost reduction data and related processes while making recommendations for improvement when possible"
+        "CompanyName": "Philadelphia Funk Authority",
+        "specialization": "Lead Female Vocalist",
+        "MonthOfLeaving": "December 2018 - ",
+        "YearOfLeaving": "Present",
+        "Achievements": "Lead singer of an award-winning wedding/party band that has performed on stages in front of thousands across the tri-state area."
+      },
+      {
+        "CompanyName": "iHeartMedia",
+        "specialization": "Promotions/Digital Content Assistant",
+        "MonthOfLeaving": "August 2018 - ",
+        "YearOfLeaving": "November 2019",
+        "Achievements": "Worked backstage at concerts, events, and promotions with the Digital and Social Media team to create visually appealing stories and posts for the social media pages of large radio brands [including Q102, Power 99, Alt 104.5, 106.1 The Breeze, and WDAS Philly]"
       }
     ],
     "skillsDescription": "",
@@ -47,6 +54,12 @@ let resumeData = {
       },
       {
         "skillname": "Reactjs"
+      },
+      {
+        "skillname": "JavaScript"
+      },
+      {
+        "skillname": "MongoDB"
       }
     ],
 }
