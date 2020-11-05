@@ -67,7 +67,7 @@ function checkWidth(init) {
         $("#portfolio-wrapper").removeClass("s-bgrid-thirds");
         $("#portfolio-wrapper").removeClass("cf");
         $("#portfolio-wrapper").addClass("one");
-        $("#portfolio-wrapper").css("margin-left", "23%");
+        $("#portfolio-wrapper").css("margin-left", "15%");
     } else {
         if(!init) {
             $("#portfolio-wrapper").removeClass("one");
