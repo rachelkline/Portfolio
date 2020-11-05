@@ -109,7 +109,24 @@ let resumeData = {
           "replink": "https://github.com/rachelkline/WhatTheStock"
     
         }
-      ]
+      ],
+      "socialLinks": [
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/rachel-kline-63914399/",
+          "className": "fa fa-linkedin"
+        },
+        {
+          "name": "github",
+          "url": "https://github.com/rachelkline/",
+          "className": "fa fa-github"
+        },
+        {
+          "name": "instagram",
+          "url": "http://instagram.com/overlordrach",
+          "className": "fa fa-instagram"
+        }
+      ],
 }
 
 export default resumeData
