@@ -1,6 +1,7 @@
 let resumeData = {
     "name": "Rachel Kline",
     "role": "Full Stack Developer",
+    "image": "https://github.com/rachelkline/Portfolio/blob/main/public/images/profilepic.JPG?raw=true",
     "roleDescription": "specializing in HTML, Javascript, CSS, MERN Stack, React, Node, Handlebars, mySQL, MongoDB, Mongoose and more!",
     "aboutme": "I am a Full Stack Web Developer student currently enrolled in University of Pennsylvania's Coding Bootcamp program. I'm set to graduate in November and I currently have an A+ average. I'm also the lead singer of 'Philadelphia Funk Authority,' an award-winning party band that performs on stages all over the tri-state area.",
     "address": "Philadelphia, PA",
