@@ -62,18 +62,19 @@ $(window).resize(function() {
 ------------------------------------------------------*/
 
 function checkWidth(init) {
-    if($(window).width() < 910) {
+    if($(window).width() < 710) {
         $("#portfolio-wrapper").removeClass("bgrid-quarters");
         $("#portfolio-wrapper").removeClass("s-bgrid-thirds");
         $("#portfolio-wrapper").removeClass("cf");
         $("#portfolio-wrapper").addClass("one");
-        $("#portfolio-wrapper").css("margin-left", "15%");
+        $("#portfolio-wrapper").css("margin-left", "23%");
     } else {
         if(!init) {
-            $("#portfolio-wrapper").removeClass("two");
+            $("#portfolio-wrapper").removeClass("one");
             $("#portfolio-wrapper").addClass("bgrid-quarters");
             $("#portfolio-wrapper").addClass("s-bgrid-thirds");
             $("#portfolio-wrapper").addClass("cf");
+            $("#portfolio-wrapper").css("margin-left", "0%");
         }
     }
 }
