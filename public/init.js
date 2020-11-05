@@ -1,4 +1,4 @@
-
+jQuery(document).ready(function($) {
 /*----------------------------------------------------*/
 /*	Make sure that #header-background-image height is
 /* equal to the browser height.
@@ -12,7 +12,7 @@ $(window).on('resize', function() {
 });
 
 /*----------------------------------------------------*/
-/* Smooth Scrolling
+/* Smooth Scroll
 ------------------------------------------------------ */
 
 $('.smoothscroll').on('click',function (e) {
@@ -30,7 +30,7 @@ $('.smoothscroll').on('click',function (e) {
 
 
 /*----------------------------------------------------*/
-/*	Fade In/Out Primary Navigation
+/*	Fade In/Out Navigation
 ------------------------------------------------------*/
 
 $(window).on('scroll', function() {
@@ -50,4 +50,5 @@ $(window).on('scroll', function() {
      }
   }
 
+});
 });
