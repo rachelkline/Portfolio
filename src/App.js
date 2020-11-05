@@ -4,7 +4,9 @@ import Header from "./components/Header";
 import About from './components/About';
 import Resume from './components/Resume';
 import Portfolio from "./components/Portfolio";
+import Footer from "./components/Footer";
 import resumeData from './resumeData';
+
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
     <About resumeData={resumeData} />
     <Resume resumeData={resumeData} />
     <Portfolio resumeData={resumeData} />
+    <Footer resumeData={resumeData} />
     </>
   );
 }
