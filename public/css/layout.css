@@ -86,10 +86,25 @@ header .scrolldown a {
    -o-transition: all .3s ease-in-out;
    transition: all .3s ease-in-out; 
  }
-header .scrolldown a:hover { color: #11ABB0; } 
+header .scrolldown a:hover { color: #F06000; } 
 
 #resume h1 { font: 16px/24px 'opensans-bold', sans-serif; }
 #resume .main-col { padding-right: 5%; }   
+
+/* header social links */
+header .social {
+    margin: 24px 0;
+    padding: 0;
+    font-size: 30px;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
+ }
+ header .social li {
+    display: inline-block;
+    margin: 0 15px;
+    padding: 0;
+ }
+ header .social li a { color: #fff; }
+ header .social li a:hover { color: #F06000; }
 
 /*----------------------------------------------*/
 /* Nav Styles
