@@ -61,6 +61,55 @@ let resumeData = {
         "skillname": "illustrator"
       }
     ],
+    "portfolio": [
+        {
+          "name": "Eat Da Burger",
+          "description": "A single-page application designed to add, update, and delete burgers from a database using MySQL.",
+          "imgurl": "./images/burgImg.png",
+          "imglink": "https://thawing-earth-42129.herokuapp.com/",
+          "replink": "https://github.com/rachelkline/EatDaBurger"
+        },
+        {
+          "name": "Simple Resume",
+          "description": "GROUP PROJECT 2: Input some information and get back a generated resume!",
+          "imgurl": "./images/simpRes.png",
+          "imglink": "https://group1-simple-resume.herokuapp.com/",
+          "replink": "https://github.com/rachelkline/SimpleResume"
+    
+        },
+        {
+          "name": "Employee Directory",
+          "description": "Sort and filter through random employees generated using an API",
+          "imgurl": "./images/EmpDirectory.png",
+          "imglink": "https://rk-employee-directory.herokuapp.com/",
+        "replink": "https://github.com/rachelkline/Employee-Directory"
+        },
+        {
+          "name": "Workout Tracker",
+          "description": "Utilizing MongoDB and Mongoose, track your workouts and watch your progress bars/graphs grow!",
+          "imgurl": "./images/dashboard.png",
+          "imglink": "https://glacial-falls-07220.herokuapp.com/",
+          "replink": "https://github.com/rachelkline/workoutTracker"
+    
+        },
+        
+        {
+          "name": "Progressive Budget",
+          "description": "Track your budget using MongoDB and Mongoose.",
+          "imgurl": "./images/budget.png",
+          "imglink": "https://rk-progressive-budget.herokuapp.com/",
+          "replink": "https://github.com/rachelkline/ProgressiveBudget"
+    
+        },
+        {
+          "name": "What The Stock?",
+          "description": "GROUP PROJECT 1: An all-in-one application for learning about stocks!",
+          "imgurl": "./images/WTS.png",
+          "imglink": "https://rachelkline.github.io/WhatTheStock/",
+          "replink": "https://github.com/rachelkline/WhatTheStock"
+    
+        }
+      ]
 }
 
 export default resumeData
