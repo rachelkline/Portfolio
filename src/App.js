@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Header from "./components/Header";
 import About from './components/About';
 import Resume from './components/Resume';
+import Portfolio from "./components/Portfolio";
 import resumeData from './resumeData';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     <Header resumeData={resumeData}/>
     <About resumeData={resumeData} />
     <Resume resumeData={resumeData} />
+    <Portfolio resumeData={resumeData} />
     </>
   );
 }
