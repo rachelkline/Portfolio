@@ -1,5 +1,5 @@
 $(document).ready(function() {
-/*----------------------------------------------------*/
+
 /*	Make sure that #header-background-image height is
 /* equal to the browser height.
 ------------------------------------------------------ */
@@ -11,7 +11,6 @@ $(window).on('resize', function() {
     $('body').css({ 'width': $(window).width() })
 });
 
-/*----------------------------------------------------*/
 /* Smooth Scroll
 ------------------------------------------------------ */
 
@@ -29,7 +28,6 @@ $('.smoothscroll').on('click',function (e) {
 });
 
 
-/*----------------------------------------------------*/
 /*	Fade In/Out Navigation
 ------------------------------------------------------*/
 
@@ -51,4 +49,31 @@ $(window).on('scroll', function() {
   }
 
 });
+
+checkWidth(true);
+
+$(window).resize(function() {
+    checkWidth(false);
+})
+
 });
+
+/*	Resize for mobile
+------------------------------------------------------*/
+
+function checkWidth(init) {
+    if($(window).width() < 910) {
+        $("#portfolio-wrapper").removeClass("bgrid-quarters");
+        $("#portfolio-wrapper").removeClass("s-bgrid-thirds");
+        $("#portfolio-wrapper").removeClass("cf");
+        $("#portfolio-wrapper").addClass("one");
+        $("#portfolio-wrapper").css("margin-left", "15%");
+    } else {
+        if(!init) {
+            $("#portfolio-wrapper").removeClass("two");
+            $("#portfolio-wrapper").addClass("bgrid-quarters");
+            $("#portfolio-wrapper").addClass("s-bgrid-thirds");
+            $("#portfolio-wrapper").addClass("cf");
+        }
+    }
+}

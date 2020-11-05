@@ -681,3 +681,78 @@ footer {
 }
 
 
+/* mobile wide/smaller tablets
+---------------------------------------------------------------------- */
+
+@media only screen and (max-width: 767px) {
+
+   /* mobile navigation
+   -------------------------------------------------------------------- */
+   #nav-wrap {
+      font: 8px 'opensans-bold', sans-serif;
+      /* background: transparent !important; */
+      letter-spacing: 1.5px;  
+      width: auto;
+      position: fixed;
+      top: 0;
+      right: 0;
+      margin-right: 7%;
+   }
+
+
+
+
+   /* Header Styles
+   -------------------------------------------------------------------- */
+   header .banner {
+      padding-bottom: 12px;
+      padding-top: 6px;
+   }
+   header .banner-text h1 { font: 68px/1.1em 'opensans-bold', sans-serif; }
+   header .banner-text h3 {
+      font: 16px/1.9em 'librebaskerville-regular', serif;
+      width: 85%;
+   }
+   header .banner-text hr {
+      width: 80%;
+      margin: 18px auto;
+   }
+
+    /* scrolldown link */
+   header .scrolldown { display: none; }
+
+
+   /* About Section
+   -------------------------------------------------------------------- */
+   #about .profile-pic { 
+      margin-left: 80px;
+    }
+
+   #about .main-col { padding-right: 30px;
+   padding-top: 30px; }
+
+
+   /* Resume Section
+   -------------------------------*/
+   #resume .header-col {
+      padding-top: 0;
+      margin-bottom: 28px;
+   }
+   #resume h1 { letter-spacing: 3px; }
+   #resume .main-col { padding-right: 70px; }
+      
+   .bars { width: 100%; }
+
+   /* footer
+   -------------------------------*/
+   .copyright {
+      margin-left: 28px;
+   }
+   .contactInfo {
+      font-size: 100%;
+   }
+
+
+}
+
+
