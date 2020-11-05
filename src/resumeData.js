@@ -125,6 +125,11 @@ let resumeData = {
           "name": "instagram",
           "url": "http://instagram.com/overlordrach",
           "className": "fa fa-instagram"
+        },
+        {
+            "name": "youtube",
+            "url": "https://www.youtube.com/channel/UCAV40XsupD1sAJH5OoR8jww?view_as=subscriber",
+            "className": "fa fa-youtube"
         }
       ],
 }

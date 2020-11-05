@@ -27,7 +27,7 @@ export default class Contact extends Component {
         </div>
         <div id="go-top">
           <a className="smoothscroll" title="Back to Top" href="#home">
-            <i className="far fa-hand-point-up" />
+            <i className="upBtn" />
             </a>
             </div>
       </div>
