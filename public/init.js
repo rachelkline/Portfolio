@@ -1,4 +1,4 @@
-jQuery(document).ready(function($) {
+$(document).ready(function() {
 /*----------------------------------------------------*/
 /*	Make sure that #header-background-image height is
 /* equal to the browser height.
