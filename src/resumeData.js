@@ -64,12 +64,21 @@ let resumeData = {
       }
     ],
     "portfolio": [
+              
+      {
+        "name": "Travel Buddy",
+        "description": "A multi-user trip tracking application.",
+        "imgurl": "./images/TravelBuddy.png",
+        "imglink": "https://travel-buddy3.herokuapp.com/",
+        "replink": "https://github.com/rachelkline/TravelBuddy"
+  
+      },
         {
-          "name": "Eat Da Burger",
-          "description": "A single-page application designed to add, update, and delete burgers from a database using MySQL.",
-          "imgurl": "./images/burgImg.png",
-          "imglink": "https://thawing-earth-42129.herokuapp.com/",
-          "replink": "https://github.com/rachelkline/EatDaBurger"
+          "name": "Google Books",
+          "description": "Search, save, and delete books using Google Books API.",
+          "imgurl": "./images/Googlebooks.png",
+          "imglink": "https://rk-googlebooks.herokuapp.com/",
+          "replink": "https://github.com/rachelkline/GoogleBooks"
         },
         {
           "name": "Simple Resume",
@@ -94,14 +103,27 @@ let resumeData = {
           "replink": "https://github.com/rachelkline/workoutTracker"
     
         },
-        
+        {
+          "name": "Note Taker",
+          "description": "Write, save, and delete notes. Created using Express.",
+          "imgurl": "./images/NotePage.png",
+          "imglink": "https://safe-fortress-92773.herokuapp.com/",
+          "replink": "https://github.com/rachelkline/NoteTaker"
+        },
         {
           "name": "Progressive Budget",
-          "description": "Track your budget using MongoDB and Mongoose.",
+          "description": "Add expenses and deposits to a budget with or without a connection utilizing a service worker.",
           "imgurl": "./images/budget.png",
           "imglink": "https://rk-progressive-budget.herokuapp.com/",
           "replink": "https://github.com/rachelkline/ProgressiveBudget"
     
+        },
+        {
+          "name": "Eat Da Burger",
+          "description": "A single-page application designed to add, update, and delete burgers from a database using MySQL.",
+          "imgurl": "./images/burgImg.png",
+          "imglink": "https://thawing-earth-42129.herokuapp.com/",
+          "replink": "https://github.com/rachelkline/EatDaBurger"
         },
         {
           "name": "What The Stock?",
@@ -110,7 +132,8 @@ let resumeData = {
           "imglink": "https://rachelkline.github.io/WhatTheStock/",
           "replink": "https://github.com/rachelkline/WhatTheStock"
     
-        }
+        },
+
       ],
       "socialLinks": [
         {
